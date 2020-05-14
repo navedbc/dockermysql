@@ -22,6 +22,12 @@ docker port $imagename
 #grep command
 docker inspect mysql | grep IPAdress
 
+
+#delete image
+docker image rm $imagename
+
+#delete container
+docker rm $container
  
  
  
