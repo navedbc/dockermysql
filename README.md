@@ -16,8 +16,11 @@
 
 
 # to get IPAddress
+docker port $imagename  
+
+
+#grep command
 docker inspect mysql | grep IPAdress
-docker port $imagename.      
 
  
  
