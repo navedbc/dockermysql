@@ -4,12 +4,14 @@
 
  docker run -d --name mysqldb -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password mysql:latest
  
+ 
+ 
 
 #run the below command to list the container
  docker ps
  
  #run the image
- docker run exec -it mysqldb bash
+ docker exec -it mysqldb bash
  
  #on bash run the below command to login note -p need to appended to "password"
   mysql -u root -ppassword 
