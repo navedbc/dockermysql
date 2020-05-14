@@ -11,6 +11,7 @@
  docker ps
  
  #run the image
+ 
  docker exec -it mysqldb bash
  
  #on bash run the below command to login note -p need to appended to "password"
